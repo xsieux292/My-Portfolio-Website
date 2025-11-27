@@ -36,7 +36,7 @@ const About = () => {
                       {t('about.skillsTitle')}
                     </p>
                     <ul className="mt-3 text-base text-slate-500 list-disc list-inside">
-                      {t('about.skillsDesc').split('\n').map((item, index) => (
+                      {t('about.skillsDesc').map((item, index) => (
                         <li key={index}>{item.trim()}</li>
                       ))}
                     </ul>
