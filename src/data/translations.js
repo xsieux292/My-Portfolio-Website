@@ -1,3 +1,5 @@
+import project1_try888 from '../assets/project1_try888.png';
+
 export const translations = {
   en: {
     header: {
@@ -11,7 +13,7 @@ export const translations = {
       name: 'Aphichit Seesuea',
       description: 'I am a passionate developer creating modern and responsive web applications.',
       cta: 'View My Work',
-      contact: 'Contact Me',  
+      contact: 'Contact',  
     },
     about: {
       title: 'About Me',
@@ -29,19 +31,22 @@ export const translations = {
       learnMore: 'Learn more',
       items: [
         {
-          title: 'Project One',
-          description: 'A brief description of the project goes here. It explains the main features and technologies used.',
-          imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80',
+          title: 'Try888',
+          description: 'Try888 is a website that allows users to try out the lottery and learn about the difficulty of winning. This helps them understand how difficult it is to win the lottery. This project was created with the Hackkraton group at the Mini-Hackathon Project @ JWC13.',
+          imageUrl: project1_try888,
+          link: 'https://xsieux292.github.io/Hack-kratone-Project/',
         },
         {
           title: 'Project Two',
           description: 'Another project description. Highlighting the problem solved and the solution implemented.',
           imageUrl: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+          link: '#',
         },
         {
           title: 'Project Three',
           description: 'Description for the third project. Showcasing different skills and versatility.',
           imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+          link: '#',
         },
       ],
     },
@@ -86,24 +91,27 @@ export const translations = {
       learnMore: 'ดูเพิ่มเติม',
       items: [
         {
-          title: 'โปรเจกต์ที่ 1',
-          description: 'คำอธิบายสั้นๆ เกี่ยวกับโปรเจกต์ อธิบายฟีเจอร์หลักและเทคโนโลยีที่ใช้',
-          imageUrl: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80',
+          title: 'ลองลุ้น888',
+          description: 'ลองลุ้น888 เป็นเว็ปไซต์ที่ช่วยให้ผู้ใช้ได้ลองเล่นหวยและรับรู้ความยากของการถูกรางวัลซึ่งทำให้รู้เท่าทันว่าหวยนั้นถูกรางวัลยากมาก โดยเป็นโปรเจคที่ผมทำกับกลุ่ม Hackกระโถน ในงาน Mini-Hackathon Project @ JWC13',
+          imageUrl: project1_try888,
+          link: 'https://xsieux292.github.io/Hack-kratone-Project/',
         },
         {
           title: 'โปรเจกต์ที่ 2',
           description: 'คำอธิบายโปรเจกต์อีกอัน เน้นปัญหาที่แก้ไขและวิธีแก้ปัญหาที่ใช้',
           imageUrl: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
+          link: '#',
         },
         {
           title: 'โปรเจกต์ที่ 3',
           description: 'คำอธิบายสำหรับโปรเจกต์ที่สาม แสดงให้เห็นถึงทักษะที่แตกต่างและความสามารถที่หลากหลาย',
           imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-        },
+          link: '#',
+          },
       ],
     },
     contact: {
-      title: 'ติดต่อฉัน',
+      title: 'ติดต่อ',
       subtitle: 'มีคำถามหรือต้องการร่วมงานกันไหม?',
       facebook: 'New Aphichit',
       github: 'xsiseux292',

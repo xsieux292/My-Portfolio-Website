@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
+
 const Projects = () => {
   const { t } = useLanguage();
   
@@ -9,19 +10,19 @@ const Projects = () => {
       title: t('projects.items.0.title'),
       description: t('projects.items.0.description'),
       imageUrl: t('projects.items.0.imageUrl'),
-      link: '#',
+      link: t('projects.items.0.link'),
     },
     {
       title: t('projects.items.1.title'),
       description: t('projects.items.1.description'),
       imageUrl: t('projects.items.1.imageUrl'),
-      link: '#',
+      link: t('projects.items.1.link'),
     },
     {
       title: t('projects.items.2.title'),
       description: t('projects.items.2.description'),
       imageUrl: t('projects.items.2.imageUrl'),
-      link: '#',
+      link: t('projects.items.2.link'),
     },
   ];
 
@@ -44,13 +45,13 @@ const Projects = () => {
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">
-                  <a href={project.link} className="block mt-2">
+                  <a href={project.link} target="_blank" className="block mt-2">
                     <p className="text-xl font-semibold text-slate-900">{project.title}</p>
                     <p className="mt-3 text-base text-slate-500">{project.description}</p>
                   </a>
                 </div>
                 <div className="mt-6">
-                  <a href={project.link} className="text-base font-semibold text-indigo-600 hover:text-indigo-500">
+                  <a href={project.link} target="_blank" className="text-base font-semibold text-indigo-600 hover:text-indigo-500">
                     {t('projects.learnMore')} &rarr;
                   </a>
                 </div>
