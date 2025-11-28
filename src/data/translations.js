@@ -52,9 +52,6 @@ export const translations = {
     contact: {
       title: 'Contact Me',
       subtitle: 'Have a question or want to work together?',
-      facebook: 'New Aphichit',
-      github: 'xsiseux292',
-      email: 'xsiseux292@gmail.com',
     },
     footer: {
       rights: 'All rights reserved.',
@@ -111,9 +108,6 @@ export const translations = {
     contact: {
       title: 'ติดต่อ',
       subtitle: 'มีคำถามหรือต้องการร่วมงานกันไหม?',
-      facebook: 'New Aphichit',
-      github: 'xsiseux292',
-      email: 'xsiseux292@gmail.com',
     },
     footer: {
       rights: 'สงวนลิขสิทธิ์',

@@ -7,26 +7,7 @@ const Projects = () => {
   const { t } = useLanguage();
   
   // Array of project data retrieved from translations
-  const projects = [
-    {
-      title: t('projects.items.0.title'),
-      description: t('projects.items.0.description'),
-      imageUrl: t('projects.items.0.imageUrl'),
-      link: t('projects.items.0.link'),
-    },
-    {
-      title: t('projects.items.1.title'),
-      description: t('projects.items.1.description'),
-      imageUrl: t('projects.items.1.imageUrl'),
-      link: t('projects.items.1.link'),
-    },
-    {
-      title: t('projects.items.2.title'),
-      description: t('projects.items.2.description'),
-      imageUrl: t('projects.items.2.imageUrl'),
-      link: t('projects.items.2.link'),
-    },
-  ];
+  const projects = t('projects.items');
 
   return (
     <section id="projects" className="bg-white py-12 sm:py-16 lg:py-20">
