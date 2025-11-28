@@ -3,8 +3,10 @@ import { useLanguage } from '../context/LanguageContext';
 
 
 const Projects = () => {
+  // Projects component displays a list of projects with descriptions and links.
   const { t } = useLanguage();
   
+  // Array of project data retrieved from translations
   const projects = [
     {
       title: t('projects.items.0.title'),

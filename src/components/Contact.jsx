@@ -2,8 +2,10 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Contact = () => {
+  // Contact component displays contact information and social links.
   const { t } = useLanguage();
 
+  // Array of contact details including icons and links
   const contacts = [
     {
       name: 'Facebook',

@@ -11,15 +11,14 @@ export const translations = {
     hero: {
       greeting: "Hello, I'm",
       name: 'Aphichit Seesuea',
-      description: 'I am a passionate developer creating modern and responsive web applications.',
+      description: 'I am a first-year student in the Faculty of Computer Engineering, Chulalongkorn University, who is committed to creating and developing websites and is always ready to improve myself.',
       cta: 'View My Work',
       contact: 'Contact',  
     },
     about: {
       title: 'About Me',
       subtitle: 'A little bit about who I am and what I do.',
-      backgroundTitle: 'Background',
-      backgroundDesc: 'I have a strong foundation in computer science and web development. I love solving complex problems and building useful applications.',
+
       skillsTitle: 'Skills',
       skillsDesc: ['Frontend: React, Tailwind CSS.', 'Backend: Node.js, Express.js. ', 'Database: MongoDB, MySQL.', 'API: Rest API.', 'Other Tools: GitHub, Postman, VSCode.'],
       goalsTitle: 'Goals',
@@ -64,22 +63,21 @@ export const translations = {
   th: {
     header: {
       home: 'หน้าแรก',
-      about: 'เกี่ยวกับฉัน',
+      about: 'เกี่ยวกับผม',
       projects: 'ผลงาน',
       contact: 'ติดต่อ',
     },
     hero: {
       greeting: 'สวัสดีครับ ผม',
       name: 'อภิชิต สีเสือ',
-      description: 'ผมคือนักพัฒนาที่หลงใหลในการสร้างเว็บแอปพลิเคชันที่ทันสมัยและตอบโจทย์การใช้งาน',
-      cta: 'ดูผลงานของผม',
-      contact: 'ติดต่อฉัน',
+      description: 'ผมเป็นนักศึกษาชั้นปีที่ 1 คณะวิศวกรรมคอมพิวเตอร์ จุฬาลงกรณ์มหาวิทยาลัย ที่มุ่งมั่นในการสร้างสรรค์และพัฒนาเว็บไซต์ และพร้อมทีจะพัฒนาตัวเองอยู่เสมอ',
+      cta: 'ผลงาน',
+      contact: 'ติดต่อ',
     },
     about: {
-      title: 'เกี่ยวกับฉัน',
+      title: 'เกี่ยวกับผม',
       subtitle: 'ข้อมูลเล็กน้อยเกี่ยวกับตัวตนและสิ่งที่ผมทำ',
-      backgroundTitle: 'ประวัติความเป็นมา',
-      backgroundDesc: 'ผมมีพื้นฐานที่แข็งแกร่งด้านวิทยาการคอมพิวเตอร์และการพัฒนาเว็บ ผมชอบแก้ปัญหาที่ซับซ้อนและสร้างแอปพลิเคชันที่มีประโยชน์',
+
       skillsTitle: 'ทักษะ',
       skillsDesc: ['Frontend: React, Tailwind CSS.', 'Backend: Node.js, Express.js. ', 'Database: MongoDB, MySQL.', 'API: Rest API.' , 'Other Tools: GitHub, Postman, VSCode.'],
       goalsTitle: 'เป้าหมาย',

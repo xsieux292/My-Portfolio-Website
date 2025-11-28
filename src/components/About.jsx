@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const About = () => {
+  // About component displays information about the user, including skills and goals.
   const { t } = useLanguage();
 
   return (
@@ -16,19 +17,8 @@ const About = () => {
               {t('about.subtitle')}
             </p>
           </div>
-          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-             <div className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
-                <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-                  <div className="flex-1">
-                    <p className="text-xl font-semibold text-slate-900">
-                      {t('about.backgroundTitle')}
-                    </p>
-                    <p className="mt-3 text-base text-slate-500">
-                      {t('about.backgroundDesc')}
-                    </p>
-                  </div>
-                </div>
-             </div>
+          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-8/10">
+            {/* Skills */}
              <div className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">
@@ -43,6 +33,7 @@ const About = () => {
                   </div>
                 </div>
              </div>
+             {/* Goals */}
              <div className="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white">
                 <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                   <div className="flex-1">

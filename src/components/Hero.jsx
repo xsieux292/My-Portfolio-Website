@@ -3,6 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import heroImage from '../assets/my_photo.JPG';
 
 const Hero = () => {
+  // Hero component displays the main introduction and call-to-action buttons.
   const { t } = useLanguage();
 
   return (

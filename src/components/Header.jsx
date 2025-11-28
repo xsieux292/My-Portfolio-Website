@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Header = () => {
+  // Header component displays the navigation bar and language switcher.
+  // State to manage mobile menu visibility
   const [isOpen, setIsOpen] = useState(false);
   const { language, toggleLanguage, t } = useLanguage();
 

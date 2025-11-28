@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 const AppContent = () => {
+  // Main content wrapper that handles font switching based on language.
   const { language } = useLanguage();
   const fontClass = language === 'th' ? 'font-prompt' : 'font-inter';
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const Footer = () => {
+  // Footer component displays the copyright information.
   const { t } = useLanguage();
 
   return (
