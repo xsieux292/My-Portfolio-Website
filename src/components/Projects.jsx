@@ -20,11 +20,11 @@ const Projects = () => {
             {t('projects.subtitle')}
           </p>
         </div>
-        <div className="mt-12 grid gap-8 max-w-lg mx-auto lg:grid-cols-3 lg:max-w-none">
+        <div className="mt-12 grid gap-8 max-w-lg mx-auto lg:grid-cols-2 lg:max-w-none">
           {projects.map((project, index) => (
             <div key={index} className="flex flex-col rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
               <div className="shrink-0">
-                <img className="h-48 w-full object-cover" src={project.imageUrl} alt={project.title} />
+                <img className="h-64 w-full object-cover" src={project.imageUrl} alt={project.title} />
               </div>
               <div className="flex-1 bg-white p-6 flex flex-col justify-between">
                 <div className="flex-1">

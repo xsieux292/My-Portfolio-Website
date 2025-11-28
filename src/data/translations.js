@@ -22,7 +22,7 @@ export const translations = {
       skillsTitle: 'Skills',
       skillsDesc: ['Frontend: React, Tailwind CSS.', 'Backend: Node.js, Express.js. ', 'Database: MongoDB, MySQL.', 'API: Rest API.', 'Other Tools: GitHub, Postman, VSCode.'],
       goalsTitle: 'Goals',
-      goalsDesc: 'To create impactful digital experiences and contribute to innovative projects. I aim to write clean, maintainable, and efficient code.',
+      goalsDesc: 'I am committed to consistently creating work to translate my knowledge into practical applications. I believe in self-improvement and am always ready to learn to expand my abilities.',
     },
     projects: {
       title: 'My Projects',
@@ -34,18 +34,6 @@ export const translations = {
           description: 'Try888 is a website that allows users to try out the lottery and learn about the difficulty of winning. This helps them understand how difficult it is to win the lottery. This project was created with the Hackkraton group at the Mini-Hackathon Project @ JWC13.',
           imageUrl: project1_try888,
           link: 'https://xsieux292.github.io/Hack-kratone-Project/',
-        },
-        {
-          title: 'Project Two',
-          description: 'Another project description. Highlighting the problem solved and the solution implemented.',
-          imageUrl: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-          link: '#',
-        },
-        {
-          title: 'Project Three',
-          description: 'Description for the third project. Showcasing different skills and versatility.',
-          imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-          link: '#',
         },
       ],
     },
@@ -78,7 +66,7 @@ export const translations = {
       skillsTitle: 'ทักษะ',
       skillsDesc: ['Frontend: React, Tailwind CSS.', 'Backend: Node.js, Express.js. ', 'Database: MongoDB, MySQL.', 'API: Rest API.' , 'Other Tools: GitHub, Postman, VSCode.'],
       goalsTitle: 'เป้าหมาย',
-      goalsDesc: 'เพื่อสร้างประสบการณ์ดิจิทัลที่สร้างผลกระทบและมีส่วนร่วมในโครงการที่เป็นนวัตกรรม ผมตั้งใจที่จะเขียนโค้ดที่สะอาด ดูแลรักษาง่าย และมีประสิทธิภาพ',
+      goalsDesc: 'ผมมีความตั้งในการสร้างสรรค์ผลงานอย่างสม่ำเสมอ เพื่อนำความรู้มาแปลงให้กลายเป็นผลงานที่ใช้ได้จริง ผมเชื่อในการ พัฒนาตนเอง และผมพร้อมที่จะเรียนรู้ตลอดเวลาเพื่อเติมเต็มความสามารถของผม',
     },
     projects: {
       title: 'ผลงานของผม',
@@ -91,18 +79,6 @@ export const translations = {
           imageUrl: project1_try888,
           link: 'https://xsieux292.github.io/Hack-kratone-Project/',
         },
-        {
-          title: 'โปรเจกต์ที่ 2',
-          description: 'คำอธิบายโปรเจกต์อีกอัน เน้นปัญหาที่แก้ไขและวิธีแก้ปัญหาที่ใช้',
-          imageUrl: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-          link: '#',
-        },
-        {
-          title: 'โปรเจกต์ที่ 3',
-          description: 'คำอธิบายสำหรับโปรเจกต์ที่สาม แสดงให้เห็นถึงทักษะที่แตกต่างและความสามารถที่หลากหลาย',
-          imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-          link: '#',
-          },
       ],
     },
     contact: {
