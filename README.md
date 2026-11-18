@@ -1,13 +1,14 @@
-# Web Portfolio
+# Personal Portfolio Website
 
-A personal portfolio website built with React and Tailwind CSS to showcase my work, skills, and experience.
+A personal portfolio website built with React, Vite and Tailwind CSS. It presents my background, skills,
+projects and contact details in English and Thai.
 
 ## Features
 
-- **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices.
-- **Multi-language Support**: Toggle between English (EN) and Thai (TH) languages.
-- **Smooth Navigation**: Smooth scrolling to different sections (Home, About, Projects, Contact).
-- **Modern UI**: Clean and professional design using Tailwind CSS.
+- **Responsive design**: works on phones, tablets and desktops.
+- **Bilingual**: switch between English (EN) and Thai (TH).
+- **Smooth navigation**: smooth scrolling between the Home, About, Projects and Contact sections.
+- **Clean UI**: styled with Tailwind CSS.
 
 ## Tech Stack
 
@@ -19,19 +20,19 @@ A personal portfolio website built with React and Tailwind CSS to showcase my wo
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+- Node.js 20.19+ (required by Vite 7)
+- npm
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/xsieux292/My-Portfolio-Website.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd web-portfolio
+   cd My-Portfolio-Website
    ```
 
 3. Install dependencies:
@@ -68,7 +69,7 @@ npm run preview
 ```
 src/
 ├── assets/         # Static assets (images, etc.)
-├── components/     # Reusable React components
+├── components/     # Page sections: Header, Hero, About, Projects, Contact, Footer
 ├── context/        # React Context (e.g., LanguageContext)
 ├── data/           # Static data and translations
 ├── App.jsx         # Main application component
